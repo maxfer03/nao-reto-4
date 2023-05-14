@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-bar {
+  @apply bg-neutral h-20 border-b-[1px] border-b-base-200
+  flex justify-between
+  ;
+
+  &-left-content {
+    @apply hidden lg:flex;
+  }
+
+  &-right-content {
+    @apply flex-1 flex justify-end gap-[18px];
+
+    &-icons {
+      @apply flex gap-7;
+    }
+    &-separator {
+     @apply hidden h-8 w-[1px] mx-7 bg-base-200
+     lg:flex
+     ; 
+    }
+    input {
+      @apply w-[48px];
+    }
+  }
+}
