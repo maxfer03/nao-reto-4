@@ -10,8 +10,16 @@
     ;
   }
   
-  .drawer-content {
+  &-content {
     @apply w-full absolute top-[15px] left-[10px];
+  }
+  &-side {
+    .menu {
+      @apply relative;
+      .btn {
+        @apply top-[15px] left-[10px];
+      }
+    }
   }
 }
 

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.data-card {
+  @apply bg-white border-[1px] border-base-200 rounded-xl min-h-[185px];
+}
