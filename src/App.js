@@ -1,8 +1,7 @@
-import './App.css';
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
-import NavBar from './components/NavBar';
-import Register from './components/Form/Register';
-import TopBar from './components/TopBar';
+import NavBar from './components/NavBar/NavBar';
+import Register from './Views/Register/Register';
+import TopBar from './components/TopBar/TopBar';
 import Home from './Views/Home/Home';
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import './TopBar.scss'
-import notif from '../assets/svg/notif.svg';
-import chat from '../assets/svg/chat.svg';
+import notif from '../../assets/svg/notif.svg';
+import chat from '../../assets/svg/chat.svg';
 import { useLocation } from "react-router-dom";
 import { useSelector } from 'react-redux';
 

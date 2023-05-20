@@ -1,11 +1,11 @@
 import './Register.scss'
 import logo from '../../assets/svg/logo.svg'
-import Card from '../Card/Card';
+import Card from '../../components/Card/Card';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { setUsername, setEmail } from '../../redux/store';
 
-import RegForm from './RegForm';
+import RegForm from '../../components/Form/RegForm';
 
  
 
