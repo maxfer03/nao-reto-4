@@ -3,9 +3,14 @@ import './TopBar.scss'
 import notif from '../assets/svg/notif.svg';
 import chat from '../assets/svg/chat.svg';
 import { useLocation } from "react-router-dom";
+import { useSelector } from 'react-redux';
 
 
 const TopBar = () => {
+
+  const name = useSelector((state) => state.user.name)
+  const surname = useSelector((state) => state.user.surname)
+
 
   const [isRegister, setIsRegister] = useState(false);
   const location = useLocation()
@@ -19,7 +24,7 @@ const TopBar = () => {
     {isRegister ? null : (
       <div className="navbar top-bar">
         <div className="top-bar-left-content">
-          <p className="welcome">Welcome, James</p>
+          <p className="welcome">Welcome, {name} {surname}</p>
           <p className="date">1 October  2022 | 11:59 AM GMT</p>
         </div>
         <div className="top-bar-right-content">

@@ -23,12 +23,13 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <NavBar/>
+      <App/>
+        {/* <NavBar/>
         <TopBar/>
         <Routes>
             <Route path='/' element={<Home/>} />
             <Route exact path='/register' element={<Register />} />
-        </Routes>
+        </Routes> */}
       </BrowserRouter>
     </Provider>
   </React.StrictMode>
