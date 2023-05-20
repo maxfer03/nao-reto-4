@@ -7,13 +7,9 @@ import Root from "./components/Root";
 import Register from "./components/Register";
 import NavBar from "./components/NavBar";
 
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom" 
+import { BrowserRouter, Routes, Route, Link} from "react-router-dom" 
 import TopBar from "./components/TopBar";
 import Home from "./Views/Home/Home";
-
-
-
-
 
 
 

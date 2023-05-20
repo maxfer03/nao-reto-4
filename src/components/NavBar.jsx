@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import './NavBar.scss'
 import analytics from '../assets/svg/analytics.svg'
 import logo from '../assets/svg/logo.svg'
@@ -7,10 +7,10 @@ import logo from '../assets/svg/logo.svg'
 const NavBar = () => {
 
   const [isRegister, setIsRegister] = useState(false);
-
+  const location = useLocation()
   useEffect(() => {
-    setIsRegister(window.location.pathname === '/register');
-  }, []);
+    setIsRegister(location.pathname === '/register');
+  }, [location]);
 
 
   return ( 

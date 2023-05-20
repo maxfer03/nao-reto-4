@@ -2,15 +2,17 @@ import { useState, useEffect } from "react";
 import './TopBar.scss'
 import notif from '../assets/svg/notif.svg';
 import chat from '../assets/svg/chat.svg';
+import { useLocation } from "react-router-dom";
 
 
 const TopBar = () => {
 
   const [isRegister, setIsRegister] = useState(false);
-
+  const location = useLocation()
   useEffect(() => {
-    setIsRegister(window.location.pathname === '/register');
-  }, []);
+    setIsRegister(location.pathname === '/register');
+    console.log('top', location)
+  }, [location]);
 
   return ( 
     <>
