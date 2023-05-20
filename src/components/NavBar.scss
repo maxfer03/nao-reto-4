@@ -25,7 +25,11 @@
         @apply flex flex-col gap-5;
         li {
           @apply h-10 ;
-          a {
+          .active {
+            @apply bg-blue;
+            img {
+              filter: brightness(10);
+            }
           }
         }
       }

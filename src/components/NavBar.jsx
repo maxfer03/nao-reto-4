@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import './NavBar.scss'
 import analytics from '../assets/svg/analytics.svg'
 import logo from '../assets/svg/logo.svg'
@@ -29,67 +29,67 @@ const NavBar = () => {
           <img className="groth-logo" src={logo} alt="Groth Logo"/>
           <ul className="menu-items">
             <li>
-              <a href="/">
+              <NavLink to="/">
                 <img src={analytics} alt="Icon" />
                 <span>Dashboard</span>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/">
+              <NavLink to="/analytics">
                 <img src={analytics} alt="Icon" />
                 <span>Analytics</span>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/">
+              <NavLink to="/products">
                 <img src={analytics} alt="Icon" />
                 <span>Products</span>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/">
+              <NavLink to="/payment">
                 <img src={analytics} alt="Icon" />
                 <span>Payment</span>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/">
+              <NavLink to="/orders">
                 <img src={analytics} alt="Icon" />
                 <span>Orders</span>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/">
+              <NavLink to="/clients">
                 <img src={analytics} alt="Icon" />
                 <span>Clients</span>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/">
+              <NavLink to="/marketing">
                 <img src={analytics} alt="Icon" />
                 <span>Marketing</span>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/">
+              <NavLink to="/settings">
                 <img src={analytics} alt="Icon" />
-                <span>Setting</span>
-              </a>
+                <span>Settings</span>
+              </NavLink>
             </li>
           </ul>
           <div className="separator"/>
           <ul className="menu-items">
             <li>
-              <a href="/">
+              <NavLink to="/user">
                 <img src={analytics} alt="Icon" />
                 <span>User</span>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/">
+              <NavLink to="/register">
                 <img src={analytics} alt="Icon" />
                 <span>Logout</span>
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
