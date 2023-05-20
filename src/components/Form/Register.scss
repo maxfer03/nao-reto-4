@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .register-section {
-  @apply h-[100vh] w-[100vw] mt-[50px] flex flex-col items-center justify-start;
+  @apply h-[100vh] w-[100vw] mt-[50px] flex flex-col items-center justify-start
+  md:mt-0;
 
   &-top {
     @apply flex flex-col items-center mb-[40px] gap-[20px];
