@@ -17,8 +17,8 @@ const TopBar = () => {
     {isRegister ? null : (
       <div className="navbar top-bar">
         <div className="top-bar-left-content">
-          <p>Welcome, James</p>
-          <p>1 October  2022 | 11:59 AM GMT</p>
+          <p className="welcome">Welcome, James</p>
+          <p className="date">1 October  2022 | 11:59 AM GMT</p>
         </div>
         <div className="top-bar-right-content">
           <div className="top-bar-right-content-icons">

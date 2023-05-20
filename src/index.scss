@@ -17,5 +17,10 @@ code {
 }
 
 .container {
-  @apply px-[15px] my-8;
+  @apply px-[15px]  py-[116px]
+  lg:ml-[247px] lg:px-8;
+}
+
+#root {
+  @apply lg:flex
 }

@@ -41,6 +41,8 @@ module.exports = {
           "base-content": '#000',
           "base-100": "#F7F7F7",
           "base-200": "#d1d1d1",
+          "base-300": "#7C7C7C",
+
           "primary": '#FFF',
           "primary-focus": '#1900D5'
 
