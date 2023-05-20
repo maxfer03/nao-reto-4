@@ -1,9 +1,13 @@
 import './Register.scss'
-import logo from '../assets/svg/logo.svg'
-import Card from './Card/Card';
+import logo from '../../assets/svg/logo.svg'
+import Card from '../Card/Card';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { setUsername, setEmail } from '../redux/store';
+import { setUsername, setEmail } from '../../redux/store';
+
+import RegForm from './RegForm';
+
+ 
 
 const Register = () => {
 
@@ -37,16 +41,7 @@ const Register = () => {
     title={'Request Access'}
     styles='register-form'
     >
-      <form>
-        <div className='form-item'>
-          <label>{username}</label>
-          <input type="text" name='username'value={username} onChange={handleInputChange} />
-        </div>
-        <div className='form-item'>
-          <label>{email}</label>
-          <input type="text" name='email' value={email} onChange={handleInputChange} />
-        </div>
-      </form>
+      <RegForm/>
     </Card>
   </div> );
 }

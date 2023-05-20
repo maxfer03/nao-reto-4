@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import "./index.scss";
 import App from "./App";
 import Root from "./components/Root";
-import Register from "./components/Register";
+import Register from "./components/Form/Register";
 import NavBar from "./components/NavBar";
 
 import { BrowserRouter, Routes, Route, Link} from "react-router-dom" 
