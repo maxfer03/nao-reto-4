@@ -25,10 +25,18 @@
         @apply flex flex-col gap-5;
         li {
           @apply h-10 ;
+          a {
+            span {
+              @apply text-base-300
+            }
+          }
           .active {
             @apply bg-blue;
             img {
               filter: brightness(10);
+            }
+            span {
+              @apply text-white
             }
           }
         }

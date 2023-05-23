@@ -1,8 +1,19 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import './NavBar.scss'
-import analytics from '../../assets/svg/analytics.svg'
 import logo from '../../assets/svg/logo.svg'
+import home from '../../assets/svg/home.svg'
+import analytics from '../../assets/svg/analytics.svg'
+import product from '../../assets/svg/product.svg'
+import payment from '../../assets/svg/payment.svg'
+import orders from '../../assets/svg/orders.svg'
+import clients from '../../assets/svg/clients.svg'
+import marketing from '../../assets/svg/marketing.svg'
+import config from '../../assets/svg/config.svg'
+import user from '../../assets/svg/user.svg'
+import logout from '../../assets/svg/logout.svg'
+
+
 
 const NavBar = () => {
 
@@ -30,7 +41,7 @@ const NavBar = () => {
           <ul className="menu-items">
             <li>
               <NavLink to="/">
-                <img src={analytics} alt="Icon" />
+                <img src={home} alt="Icon" />
                 <span>Dashboard</span>
               </NavLink>
             </li>
@@ -42,37 +53,37 @@ const NavBar = () => {
             </li>
             <li>
               <NavLink to="/products">
-                <img src={analytics} alt="Icon" />
+                <img src={product} alt="Icon" />
                 <span>Products</span>
               </NavLink>
             </li>
             <li>
               <NavLink to="/payment">
-                <img src={analytics} alt="Icon" />
+                <img src={payment} alt="Icon" />
                 <span>Payment</span>
               </NavLink>
             </li>
             <li>
               <NavLink to="/orders">
-                <img src={analytics} alt="Icon" />
+                <img src={orders} alt="Icon" />
                 <span>Orders</span>
               </NavLink>
             </li>
             <li>
               <NavLink to="/clients">
-                <img src={analytics} alt="Icon" />
+                <img src={clients} alt="Icon" />
                 <span>Clients</span>
               </NavLink>
             </li>
             <li>
               <NavLink to="/marketing">
-                <img src={analytics} alt="Icon" />
+                <img src={marketing} alt="Icon" />
                 <span>Marketing</span>
               </NavLink>
             </li>
             <li>
               <NavLink to="/settings">
-                <img src={analytics} alt="Icon" />
+                <img src={config} alt="Icon" />
                 <span>Settings</span>
               </NavLink>
             </li>
@@ -81,13 +92,13 @@ const NavBar = () => {
           <ul className="menu-items">
             <li>
               <NavLink to="/user">
-                <img src={analytics} alt="Icon" />
+                <img src={user} alt="Icon" />
                 <span>User</span>
               </NavLink>
             </li>
             <li>
               <NavLink to="/register">
-                <img src={analytics} alt="Icon" />
+                <img src={logout} alt="Icon" />
                 <span>Logout</span>
               </NavLink>
             </li>
