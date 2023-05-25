@@ -3,6 +3,7 @@ import SmallChart from '../Charts/SmallChart';
 import './CardMd.scss'
 
 const CardMd = ({data, title, subtitle, isClient}) => {
+  console.log(data)
   return (
     <Card title = {title} size = 'md'>
     <div className='data'>
@@ -26,7 +27,7 @@ const CardMd = ({data, title, subtitle, isClient}) => {
         </div>
       </div>
       <div className='data-right'>
-        <SmallChart data={data?.chart}/>
+        <SmallChart data={isClient ? data?.client_chart : data?.chart}/>
       </div>
     </div>
     </Card>

@@ -231,6 +231,94 @@
       "email": "sandsferdinand@gmail.com",
       "pw": "123456",
       "id": 29
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 30
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 31
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 32
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 33
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 34
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 35
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 36
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 37
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 38
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 39
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 40
     }
   ],
   "data": {
@@ -754,90 +842,225 @@
         "name": "Acme Design Studio",
         "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
         "data": {
-          "total": 87654,
+          "big_num": 87654,
           "rate": 75,
-          "small": 54321,
-          "client_chart": ""
+          "small_num": 54321,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 3245
+                },
+                {
+                  "x": "Mon",
+                  "y": 2435
+                },
+                {
+                  "x": "Tue",
+                  "y": 346
+                },
+                {
+                  "x": "Wed",
+                  "y": 23
+                },
+                {
+                  "x": "Thu",
+                  "y": 243
+                },
+                {
+                  "x": "Fri",
+                  "y": 634
+                },
+                {
+                  "x": "Sat",
+                  "y": 23
+                }
+              ]
+            }
+          ]
         }
       },
       {
         "name": "Pixel Innovators",
         "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
         "data": {
-          "total": 43210,
+          "big_num": 43210,
           "rate": 88,
-          "small": 12345,
-          "client_chart": ""
+          "small_num": 12345,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 643
+                },
+                {
+                  "x": "Mon",
+                  "y": 23
+                },
+                {
+                  "x": "Tue",
+                  "y": 346
+                },
+                {
+                  "x": "Wed",
+                  "y": 524
+                },
+                {
+                  "x": "Thu",
+                  "y": 523
+                },
+                {
+                  "x": "Fri",
+                  "y": 1234
+                },
+                {
+                  "x": "Sat",
+                  "y": 254
+                }
+              ]
+            }
+          ]
         }
       },
       {
         "name": "Creative Co",
         "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
         "data": {
-          "total": 65432,
+          "big_num": 65432,
           "rate": 92,
-          "small": 21098,
-          "client_chart": ""
+          "small_num": 21098,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 243
+                },
+                {
+                  "x": "Mon",
+                  "y": 624
+                },
+                {
+                  "x": "Tue",
+                  "y": 523
+                },
+                {
+                  "x": "Wed",
+                  "y": 312
+                },
+                {
+                  "x": "Thu",
+                  "y": 634
+                },
+                {
+                  "x": "Fri",
+                  "y": 234
+                },
+                {
+                  "x": "Sat",
+                  "y": 1234
+                }
+              ]
+            }
+          ]
         }
       },
       {
         "name": "Innovation Lab",
         "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
         "data": {
-          "total": 78901,
+          "big_num": 78901,
           "rate": 63,
-          "small": 87654,
-          "client_chart": ""
+          "small_num": 87654,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 642
+                },
+                {
+                  "x": "Mon",
+                  "y": 623
+                },
+                {
+                  "x": "Tue",
+                  "y": 243
+                },
+                {
+                  "x": "Wed",
+                  "y": 457
+                },
+                {
+                  "x": "Thu",
+                  "y": 543
+                },
+                {
+                  "x": "Fri",
+                  "y": 5234
+                },
+                {
+                  "x": "Sat",
+                  "y": 235
+                }
+              ]
+            }
+          ]
         }
       },
       {
         "name": "Design Guru",
         "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
         "data": {
-          "total": 54321,
+          "big_num": 54321,
           "rate": 80,
-          "small": 43210,
-          "client_chart": ""
-        }
-      },
-      {
-        "name": "Inventive Solutions",
-        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
-        "data": {
-          "total": 21098,
-          "rate": 71,
-          "small": 65432,
-          "client_chart": ""
-        }
-      },
-      {
-        "name": "Tech Innovators",
-        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
-        "data": {
-          "total": 98765,
-          "rate": 84,
-          "small": 78901,
-          "client_chart": ""
-        }
-      },
-      {
-        "name": "Creative Minds",
-        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
-        "data": {
-          "total": 12345,
-          "rate": 95,
-          "small": 54321,
-          "client_chart": ""
-        }
-      },
-      {
-        "name": "Design Experts",
-        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
-        "data": {
-          "total": 45678,
-          "rate": 79,
-          "small": 21098,
-          "client_chart": ""
+          "small_num": 43210,
+          "client_chart": [
+            {
+              "id": "1",
+              "color": "#fff",
+              "data": [
+                {
+                  "x": "Sun",
+                  "y": 5
+                },
+                {
+                  "x": "Mon",
+                  "y": 65
+                },
+                {
+                  "x": "Tue",
+                  "y": 32
+                },
+                {
+                  "x": "Wed",
+                  "y": 78
+                },
+                {
+                  "x": "Thu",
+                  "y": 90
+                },
+                {
+                  "x": "Fri",
+                  "y": 45
+                },
+                {
+                  "x": "Sat",
+                  "y": 60
+                }
+              ]
+            }
+          ]
         }
       }
     ]

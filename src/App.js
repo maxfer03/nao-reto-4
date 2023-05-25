@@ -8,6 +8,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setData } from "./redux/store.js";
 import Invoices from "./Views/Invoices/Invoices";
 import Products from "./Views/Products/Products";
+import Clients from "./Views/Clients/Clients";
+
 function App() {
   const userData = useSelector((state) => state.user)
   const dispatch = useDispatch();
@@ -50,7 +52,9 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/invoices' element={<Invoices/>} />
         <Route path='/products' element={<Products/>} />
+        <Route path='/clients' element={<Clients/>} />
         <Route exact path='/register' element={<Register />} />
+        
     </Routes>
   </> 
   );
