@@ -9,6 +9,7 @@ import { setData } from "./redux/store.js";
 import Invoices from "./Views/Invoices/Invoices";
 import Products from "./Views/Products/Products";
 import Clients from "./Views/Clients/Clients";
+import WorldView from "./Views/WorldView/WorldView";
 
 function App() {
   const userData = useSelector((state) => state.user)
@@ -52,6 +53,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/invoices' element={<Invoices/>} />
         <Route path='/products' element={<Products/>} />
+        <Route path='/analytics' element={<WorldView/>} />
         <Route path='/clients' element={<Clients/>} />
         <Route exact path='/register' element={<Register />} />
         

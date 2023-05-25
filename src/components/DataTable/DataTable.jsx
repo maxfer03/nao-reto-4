@@ -2,7 +2,33 @@ import Card from '../Card/Card';
 import SmallChart from '../Charts/SmallChart';
 import './DataTable.scss'
 
-const DataTable = ({data, title, length, isProducts}) => {
+const DataTable = ({data, title, length, isProducts, isGlobal}) => {
+
+  if (isGlobal) {
+    return (
+      <Card title = {title} size = 'lg'>
+      <div className='data-table'>
+        <div className='labels data-table-row'>
+          <span>Country</span>
+          <span className='mobile-hidden' >Sales</span>
+          <span>Amount</span>
+        </div>
+        <div className='items'>
+          {data?.slice(0, length).map((item, idx) => {
+            return (
+              <div key={`${item.id}-${idx}`} className='item data-table-row'>
+                <span>{item.id}</span>
+                <span className='mobile-hidden' >{Math.floor(item.value / 2)}</span>
+                <span>${item.value}</span>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+    </Card>
+    )
+  }
+
   return (
     <Card title = {title} size = 'lg'>
       <div className='data-table'>
