@@ -53,7 +53,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/invoices' element={<Invoices/>} />
         <Route path='/products' element={<Products/>} />
-        <Route path='/analytics' element={<WorldView/>} />
+        <Route path='/global' element={<WorldView/>} />
         <Route path='/clients' element={<Clients/>} />
         <Route exact path='/register' element={<Register />} />
         

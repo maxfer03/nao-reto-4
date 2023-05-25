@@ -375,6 +375,14 @@
       "email": "sandsferdinand@gmail.com",
       "pw": "123456",
       "id": 47
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 48
     }
   ],
   "data": {

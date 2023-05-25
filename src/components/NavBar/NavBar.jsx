@@ -30,13 +30,25 @@ const NavBar = () => {
       <div className="drawer drawer-mobile">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content">
-        <label htmlFor="my-drawer-2" className=" drawer-button btn">X</label>
+        <label htmlFor="my-drawer-2" className=" drawer-button btn">
+          <div className="btn-inner">
+            <div className="bars"/>
+            <div className="bars"/>
+            <div className="bars"/>
+          </div>
+        </label>
       
       </div> 
       <div className="drawer-side">
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label> 
         <div className="menu p-4 w-80 bg-base-100 text-base-content">
-          <label htmlFor="my-drawer-2" className="drawer-button btn">X</label>
+          <label htmlFor="my-drawer-2" className="drawer-button btn">
+            <div className="btn-inner">
+              <div className="bars"/>
+              <div className="bars"/>
+              <div className="bars"/>
+            </div>
+          </label>
           <img className="groth-logo" src={logo} alt="Groth Logo"/>
           <ul className="menu-items">
             <li>
@@ -46,9 +58,9 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/analytics">
+              <NavLink to="/global">
                 <img src={analytics} alt="Icon" />
-                <span>Analytics</span>
+                <span>Global Sales</span>
               </NavLink>
             </li>
             <li>

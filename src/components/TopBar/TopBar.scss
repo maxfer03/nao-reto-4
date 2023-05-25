@@ -38,6 +38,14 @@
     input {
       @apply w-[48px]
       lg:w-[389px];
+
+      padding-left: 40px; /* Adjust this value based on the width of the icon */
+      background-image: url("../../assets/svg/search.svg");
+      background-position: 10px center; /* Adjust the positioning of the background image */
+    background-repeat: no-repeat;
+    background-size: 24px auto; /* Adjust the size of the background image */
+
+
     }
   }
 }

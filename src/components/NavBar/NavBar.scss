@@ -51,6 +51,14 @@
   }
 }
 
+.btn-inner {
+  @apply absolute h-full w-full 
+  flex flex-col justify-between py-3 items-center;
+  .bars {
+    @apply h-[1px] w-[70%] bg-base-200 rounded-3xl;
+  }
+}
+
 a {
   @apply pointer-events-auto;
 }

@@ -60,8 +60,8 @@ const DataTable = ({data, title, length, isProducts, isGlobal}) => {
                 {isProducts ? 
                 (
                   <>
-                  <span className='mobile-hidden' >Shoes</span>
-                  <span className='mobile-hidden' >2000</span>
+                  <span className='mobile-hidden' >{item.category}</span>
+                  <span className='mobile-hidden' >{item.sales}</span>
                   </>
 
                 ) : (

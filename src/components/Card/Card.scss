@@ -12,7 +12,7 @@
 
 }
 .register-form {
-  @apply w-[70vw] max-w-[311px] h-auto ;
+  @apply w-[70vw] max-w-[311px] min-h-[auto] ;
     form {
       @apply flex flex-col;
       .form-item {
