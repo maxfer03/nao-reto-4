@@ -18,7 +18,12 @@ code {
 
 .container {
   @apply px-[15px]  py-[116px]
+  sm:min-w-[100vw]
+  lg:min-w-0
   lg:ml-[247px] lg:px-8;
+  @media (min-width: 976px) {
+    max-width: 100% !important;
+  }
 }
 
 #root {

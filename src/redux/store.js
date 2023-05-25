@@ -29,14 +29,29 @@ const userSlice = createSlice({
   },
 });
 
+const chartsSlice = createSlice({
+  name: 'charts',
+  initialState: {
+    data: {}
+  },
+  reducers: {
+    setData: (state, action) => {
+      state.data = action.payload;
+    },
+  },
+});
+
 
 // Extract the reducer and actions from the slice
-const { reducer, actions } = userSlice;
+const {actions: userActions } = userSlice;
+const {actions: chartActions } = chartsSlice;
+
 
 // Create the Redux store
 const store = configureStore({
   reducer: {
     user: userSlice.reducer,
+    charts: chartsSlice.reducer
     // Add other reducers here if needed
   },
 });
@@ -48,6 +63,10 @@ export const {
   setUsername,
   setEmail,
   setPw,
-} = actions;
+} = userActions;
+
+export const {
+  setData
+} = chartActions;
 
 export default store;

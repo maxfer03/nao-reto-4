@@ -58,15 +58,9 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/payment">
+              <NavLink to="/invoices">
                 <img src={payment} alt="Icon" />
-                <span>Payment</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/orders">
-                <img src={orders} alt="Icon" />
-                <span>Orders</span>
+                <span>Invoices</span>
               </NavLink>
             </li>
             <li>
@@ -75,27 +69,9 @@ const NavBar = () => {
                 <span>Clients</span>
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/marketing">
-                <img src={marketing} alt="Icon" />
-                <span>Marketing</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/settings">
-                <img src={config} alt="Icon" />
-                <span>Settings</span>
-              </NavLink>
-            </li>
           </ul>
           <div className="separator"/>
           <ul className="menu-items">
-            <li>
-              <NavLink to="/user">
-                <img src={user} alt="Icon" />
-                <span>User</span>
-              </NavLink>
-            </li>
             <li>
               <NavLink to="/register">
                 <img src={logout} alt="Icon" />

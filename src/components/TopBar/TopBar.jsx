@@ -16,7 +16,6 @@ const TopBar = () => {
   const location = useLocation()
   useEffect(() => {
     setIsRegister(location.pathname === '/register');
-    console.log('top', location)
   }, [location]);
 
   return ( 

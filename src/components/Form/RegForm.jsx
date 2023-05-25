@@ -68,7 +68,6 @@ const RegForm = () => {
     },
     validate,
     onSubmit: values => {
-      console.log(values);
       dispatch(setName(values.firstName));
       dispatch(setSurname(values.lastName));
       dispatch(setUsername(values.username));

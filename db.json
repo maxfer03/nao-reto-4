@@ -1,5 +1,845 @@
 {
   "users": [
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 1
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 2
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 3
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 4
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 5
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 6
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 7
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 8
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 9
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 10
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 11
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 12
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 13
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 14
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 15
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 16
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 17
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 18
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 19
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 20
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 21
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 22
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 23
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 24
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 25
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 26
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 27
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 28
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 29
+    }
   ],
-  "data": []
+  "data": {
+    "avg_revenue": {
+      "big_num": 4677,
+      "small_num": 362,
+      "rate": 20,
+      "chart": [
+        {
+          "id": "1",
+          "color": "#fff",
+          "data": [
+            {
+              "x": "Sun",
+              "y": 50
+            },
+            {
+              "x": "Mon",
+              "y": 65
+            },
+            {
+              "x": "Tue",
+              "y": 32
+            },
+            {
+              "x": "Wed",
+              "y": 78
+            },
+            {
+              "x": "Thu",
+              "y": 90
+            },
+            {
+              "x": "Fri",
+              "y": 45
+            },
+            {
+              "x": "Sat",
+              "y": 60
+            }
+          ]
+        }
+      ]
+    },
+    "cust_return": {
+      "big_num": 8754,
+      "small_num": 201,
+      "rate": 15,
+      "chart": [
+        {
+          "id": "1",
+          "color": "#fff",
+          "data": [
+            {
+              "x": "Sun",
+              "y": 30
+            },
+            {
+              "x": "Mon",
+              "y": 45
+            },
+            {
+              "x": "Tue",
+              "y": 72
+            },
+            {
+              "x": "Wed",
+              "y": 56
+            },
+            {
+              "x": "Thu",
+              "y": 82
+            },
+            {
+              "x": "Fri",
+              "y": 38
+            },
+            {
+              "x": "Sat",
+              "y": 50
+            }
+          ]
+        }
+      ]
+    },
+    "big_chart": {
+      "chart": [
+        {
+          "id": "1",
+          "color": "blue",
+          "data": [
+            {
+              "x": "Sun",
+              "y": 30
+            },
+            {
+              "x": "Mon",
+              "y": 45
+            },
+            {
+              "x": "Tue",
+              "y": 72
+            },
+            {
+              "x": "Wed",
+              "y": 56
+            },
+            {
+              "x": "Thu",
+              "y": 82
+            },
+            {
+              "x": "Fri",
+              "y": 38
+            },
+            {
+              "x": "Sat",
+              "y": 50
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "color": "red",
+          "data": [
+            {
+              "x": "Sun",
+              "y": 50
+            },
+            {
+              "x": "Mon",
+              "y": 65
+            },
+            {
+              "x": "Tue",
+              "y": 32
+            },
+            {
+              "x": "Wed",
+              "y": 78
+            },
+            {
+              "x": "Thu",
+              "y": 90
+            },
+            {
+              "x": "Fri",
+              "y": 45
+            },
+            {
+              "x": "Sat",
+              "y": 60
+            }
+          ]
+        }
+      ]
+    },
+    "invoices": [
+      {
+        "num": 1,
+        "id": 4321,
+        "cust": "John Doe",
+        "city": "New York",
+        "date": "15/05 | 10:30",
+        "status": "Paid",
+        "amount": "$4500"
+      },
+      {
+        "num": 2,
+        "id": 1234,
+        "cust": "Jane Smith",
+        "city": "London",
+        "date": "20/05 | 14:15",
+        "status": "Pending",
+        "amount": "$2500"
+      },
+      {
+        "num": 3,
+        "id": 5678,
+        "cust": "Mark Johnson",
+        "city": "Paris",
+        "date": "18/05 | 09:45",
+        "status": "Paid",
+        "amount": "$3200"
+      },
+      {
+        "num": 4,
+        "id": 7890,
+        "cust": "Emily Brown",
+        "city": "Tokyo",
+        "date": "16/05 | 11:20",
+        "status": "Pending",
+        "amount": "$1800"
+      },
+      {
+        "num": 5,
+        "id": 2468,
+        "cust": "Michael Wilson",
+        "city": "Berlin",
+        "date": "19/05 | 16:55",
+        "status": "Paid",
+        "amount": "$5500"
+      },
+      {
+        "num": 6,
+        "id": 9876,
+        "cust": "Sarah Davis",
+        "city": "Sydney",
+        "date": "17/05 | 12:45",
+        "status": "Paid",
+        "amount": "$4100"
+      },
+      {
+        "num": 7,
+        "id": 5432,
+        "cust": "Robert Johnson",
+        "city": "Los Angeles",
+        "date": "21/05 | 09:30",
+        "status": "Pending",
+        "amount": "$3200"
+      },
+      {
+        "num": 8,
+        "id": 1357,
+        "cust": "Olivia Wilson",
+        "city": "Toronto",
+        "date": "16/05 | 15:20",
+        "status": "Paid",
+        "amount": "$5500"
+      },
+      {
+        "num": 9,
+        "id": 8024,
+        "cust": "Daniel Lee",
+        "city": "Seoul",
+        "date": "22/05 | 10:10",
+        "status": "Paid",
+        "amount": "$2800"
+      },
+      {
+        "num": 10,
+        "id": 6741,
+        "cust": "Sophia Miller",
+        "city": "Melbourne",
+        "date": "20/05 | 13:55",
+        "status": "Pending",
+        "amount": "$1900"
+      },
+      {
+        "num": 11,
+        "id": 4321,
+        "cust": "John Doe",
+        "city": "New York",
+        "date": "15/05 | 10:30",
+        "status": "Paid",
+        "amount": "$4500"
+      },
+      {
+        "num": 12,
+        "id": 1234,
+        "cust": "Jane Smith",
+        "city": "London",
+        "date": "20/05 | 14:15",
+        "status": "Pending",
+        "amount": "$2500"
+      },
+      {
+        "num": 13,
+        "id": 5678,
+        "cust": "Mark Johnson",
+        "city": "Paris",
+        "date": "18/05 | 09:45",
+        "status": "Paid",
+        "amount": "$3200"
+      },
+      {
+        "num": 14,
+        "id": 7890,
+        "cust": "Emily Brown",
+        "city": "Tokyo",
+        "date": "16/05 | 11:20",
+        "status": "Pending",
+        "amount": "$1800"
+      },
+      {
+        "num": 15,
+        "id": 2468,
+        "cust": "Michael Wilson",
+        "city": "Berlin",
+        "date": "19/05 | 16:55",
+        "status": "Paid",
+        "amount": "$5500"
+      },
+      {
+        "num": 16,
+        "id": 9876,
+        "cust": "Sarah Davis",
+        "city": "Sydney",
+        "date": "17/05 | 12:45",
+        "status": "Paid",
+        "amount": "$4100"
+      },
+      {
+        "num": 17,
+        "id": 5432,
+        "cust": "Robert Johnson",
+        "city": "Los Angeles",
+        "date": "21/05 | 09:30",
+        "status": "Pending",
+        "amount": "$3200"
+      },
+      {
+        "num": 18,
+        "id": 1357,
+        "cust": "Olivia Wilson",
+        "city": "Toronto",
+        "date": "16/05 | 15:20",
+        "status": "Paid",
+        "amount": "$5500"
+      },
+      {
+        "num": 19,
+        "id": 8024,
+        "cust": "Daniel Lee",
+        "city": "Seoul",
+        "date": "22/05 | 10:10",
+        "status": "Paid",
+        "amount": "$2800"
+      },
+      {
+        "num": 20,
+        "id": 6741,
+        "cust": "Sophia Miller",
+        "city": "Melbourne",
+        "date": "20/05 | 13:55",
+        "status": "Pending",
+        "amount": "$1900"
+      }
+    ],
+    "products": [
+      {
+        "num": 1,
+        "id": 1234,
+        "prod": "Widget A",
+        "category": "Electronics",
+        "sales": 2500,
+        "amount": 5500
+      },
+      {
+        "num": 2,
+        "id": 2345,
+        "prod": "Gadget B",
+        "category": "Accessories",
+        "sales": 1200,
+        "amount": 3200
+      },
+      {
+        "num": 3,
+        "id": 3456,
+        "prod": "Tool C",
+        "category": "Hardware",
+        "sales": 800,
+        "amount": 1800
+      },
+      {
+        "num": 4,
+        "id": 4567,
+        "prod": "Widget D",
+        "category": "Electronics",
+        "sales": 3200,
+        "amount": 7000
+      },
+      {
+        "num": 5,
+        "id": 5678,
+        "prod": "Gadget E",
+        "category": "Accessories",
+        "sales": 1500,
+        "amount": 4200
+      },
+      {
+        "num": 6,
+        "id": 6789,
+        "prod": "Tool F",
+        "category": "Hardware",
+        "sales": 500,
+        "amount": 1400
+      },
+      {
+        "num": 7,
+        "id": 7890,
+        "prod": "Widget G",
+        "category": "Electronics",
+        "sales": 4500,
+        "amount": 9600
+      },
+      {
+        "num": 8,
+        "id": 8901,
+        "prod": "Gadget H",
+        "category": "Accessories",
+        "sales": 1800,
+        "amount": 3800
+      },
+      {
+        "num": 9,
+        "id": 9012,
+        "prod": "Tool I",
+        "category": "Hardware",
+        "sales": 1000,
+        "amount": 2200
+      },
+      {
+        "num": 10,
+        "id": 1011,
+        "prod": "Widget J",
+        "category": "Electronics",
+        "sales": 3000,
+        "amount": 6500
+      }
+    ],
+    "top": [
+      {
+        "id": 89724,
+        "prod": "Widget A",
+        "category": "Electronics",
+        "rate": 35,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281486562344980/maxfer_random_product_stock_image_white_background_49270046-f46a-493c-9b90-8a533729bbe9.png?width=686&height=686"
+      },
+      {
+        "id": 89734,
+        "prod": "Widget B",
+        "category": "Apparel",
+        "rate": 15,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281500839755786/maxfer_random_product_stock_image_white_background_f08860fb-0de0-45d3-88c6-60d60638e9f2.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281510369198100/maxfer_random_product_stock_image_white_background_8f54a13e-3e7b-4dfd-aa91-aba5345e9b1b.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281516950077551/maxfer_random_product_stock_image_white_background_322d7f6c-7417-40f5-89a7-2ae7e51bac36.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281524373979136/maxfer_product_stock_image_white_background_14998822-bb9a-4698-a9cd-86a56a01fce5.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281524373979136/maxfer_product_stock_image_white_background_14998822-bb9a-4698-a9cd-86a56a01fce5.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281528136278117/maxfer_product_stock_image_white_background_8f8845bc-7984-476c-9851-4314475dda8a.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281531147796520/maxfer_product_stock_image_white_background_e19b026f-b7c6-4efa-a6eb-a6474405dd94.png?width=686&height=686"
+      },
+      {
+        "id": 87823,
+        "prod": "Widget C",
+        "category": "Shoe",
+        "rate": 20,
+        "img": "https://media.discordapp.net/attachments/1082763537333637140/1111281535748952154/maxfer_product_stock_image_white_background_71e2e225-f99a-4ae1-81c9-43e961b43d0a.png?width=686&height=686"
+      }
+    ],
+    "pie_chart": [
+      {
+        "id": "Women",
+        "label": "Women",
+        "value": 23,
+        "color": "hsl(142, 70%, 50%)"
+      },
+      {
+        "id": "Men",
+        "label": "Men",
+        "value": 41,
+        "color": "hsl(214, 70%, 50%)"
+      },
+      {
+        "id": "Kids",
+        "label": "Kids",
+        "value": 12,
+        "color": "hsl(245, 70%, 50%)"
+      },
+      {
+        "id": "Home",
+        "label": "Home",
+        "value": 10,
+        "color": "hsl(120, 70%, 50%)"
+      },
+      {
+        "id": "Wellness",
+        "label": "Wellness",
+        "value": 14,
+        "color": "hsl(166, 70%, 50%)"
+      }
+    ],
+    "clients": [
+      {
+        "name": "Acme Design Studio",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 87654,
+          "rate": 75,
+          "small": 54321,
+          "client_chart": ""
+        }
+      },
+      {
+        "name": "Pixel Innovators",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 43210,
+          "rate": 88,
+          "small": 12345,
+          "client_chart": ""
+        }
+      },
+      {
+        "name": "Creative Co",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 65432,
+          "rate": 92,
+          "small": 21098,
+          "client_chart": ""
+        }
+      },
+      {
+        "name": "Innovation Lab",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 78901,
+          "rate": 63,
+          "small": 87654,
+          "client_chart": ""
+        }
+      },
+      {
+        "name": "Design Guru",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 54321,
+          "rate": 80,
+          "small": 43210,
+          "client_chart": ""
+        }
+      },
+      {
+        "name": "Inventive Solutions",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 21098,
+          "rate": 71,
+          "small": 65432,
+          "client_chart": ""
+        }
+      },
+      {
+        "name": "Tech Innovators",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 98765,
+          "rate": 84,
+          "small": 78901,
+          "client_chart": ""
+        }
+      },
+      {
+        "name": "Creative Minds",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 12345,
+          "rate": 95,
+          "small": 54321,
+          "client_chart": ""
+        }
+      },
+      {
+        "name": "Design Experts",
+        "img": "https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png",
+        "data": {
+          "total": 45678,
+          "rate": 79,
+          "small": 21098,
+          "client_chart": ""
+        }
+      }
+    ]
+  }
 }
