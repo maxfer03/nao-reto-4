@@ -11,6 +11,7 @@ import {
 } from '../../redux/store';
 import FormInput from './FormInput';
 import './RegForm.scss'
+import { act } from 'react-dom/test-utils';
 
  
  // A custom validation function. This must return an object
@@ -68,18 +69,20 @@ const RegForm = () => {
     },
     validate,
     onSubmit: values => {
-      dispatch(setName(values.firstName));
-      dispatch(setSurname(values.lastName));
-      dispatch(setUsername(values.username));
-      dispatch(setEmail(values.email));
-      dispatch(setPw(values.pw));
-      navigate('/')
-      fetch('http://localhost:3001/users', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(values),
+      act(() => {
+        dispatch(setName(values.firstName));
+        dispatch(setSurname(values.lastName));
+        dispatch(setUsername(values.username));
+        dispatch(setEmail(values.email));
+        dispatch(setPw(values.pw));
+        navigate('/')
+        fetch('http://localhost:3001/users', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(values),
+        })
       })
     },
   });
@@ -96,7 +99,9 @@ const RegForm = () => {
     return configs
   } 
   return (
-    <form onSubmit={formik.handleSubmit}>
+    <form
+    data-testid='register-form'
+    onSubmit={formik.handleSubmit}>
       <FormInput
       config={inputConfigs('firstName', 'Name')}
       />

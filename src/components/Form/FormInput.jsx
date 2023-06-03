@@ -3,10 +3,11 @@ import './FormInput.scss'
 const FormInput = ({config}) => {
   return ( 
     <div className='form-input'>
-      <label class="label">
-        <span class="label-text">{config.label}</span>
+      <label id={`label-${config.name}`} className="label">
+        <span className="label-text">{config.label}</span>
       </label>
       <input
+        aria-labelledby={`label-${config.name}`}
         className='input input-bordered input-sm w-full max-w-xs'
         id={config.name}
         name={config.name}
@@ -16,8 +17,8 @@ const FormInput = ({config}) => {
       />
       {config.errors ? 
       (
-        <div class='label error'>
-          <span class="label-text-alt error-text">
+        <div className='label error'>
+          <span className="label-text-alt error-text">
           {config.errors}
           </span>
         </div>

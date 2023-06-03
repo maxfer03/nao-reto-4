@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cypress": "^12.13.0",
     "daisyui": "^2.51.6",
     "formik": "^2.2.9",
     "json-server": "^0.17.3",
@@ -25,7 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "db": "json-server --watch db.json --port 3001",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!your-module-name)/\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
