@@ -1,5 +1,62 @@
 {
-  "users": [],
+  "users": [
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "mail@mail.com",
+      "pw": "123456",
+      "id": 1
+    },
+    {
+      "firstName": "Miguel",
+      "lastName": "Gutierrez",
+      "username": "migu",
+      "email": "migu@gmail.com",
+      "pw": "1234567",
+      "id": 2
+    },
+    {
+      "firstName": "name",
+      "lastName": "surname",
+      "username": "username",
+      "email": "email@mymail.com",
+      "pw": "mypwpwpw",
+      "id": 3
+    },
+    {
+      "firstName": "name",
+      "lastName": "surname",
+      "username": "username",
+      "email": "email@mymail.com",
+      "pw": "mypwpwpw",
+      "id": 4
+    },
+    {
+      "firstName": "name",
+      "lastName": "surname",
+      "username": "username",
+      "email": "email@mymail.com",
+      "pw": "mypwpwpw",
+      "id": 5
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 6
+    },
+    {
+      "firstName": "Máximo",
+      "lastName": "Fernández",
+      "username": "maxfer",
+      "email": "sandsferdinand@gmail.com",
+      "pw": "123456",
+      "id": 7
+    }
+  ],
   "data": {
     "avg_revenue": {
       "big_num": 4677,

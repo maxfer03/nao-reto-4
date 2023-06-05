@@ -18,8 +18,9 @@ function App() {
   const location = useLocation()
   const [noData, setNoData] = useState(false)
   useEffect(() => {
+
     const getCharts = () => {
-      fetch('http://localhost:3001/data')
+      fetch(`${process.env.REACT_APP_API_URL}/data`)
         .then(response => response.json())
         .then(data => {
           dispatch(setData(data))
