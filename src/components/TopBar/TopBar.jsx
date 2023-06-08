@@ -5,19 +5,26 @@ import chat from '../../assets/svg/chat.svg';
 import { useLocation } from "react-router-dom";
 import { useSelector } from 'react-redux';
 
-
+// Componente de barra superior
+// accede a la data de Redux y
+// muestra el nombre y apellido
+// del usuario
 const TopBar = () => {
 
+  // accedemos a nuestro store por medio del useSelector
   const name = useSelector((state) => state.user.name)
   const surname = useSelector((state) => state.user.surname)
 
 
   const [isRegister, setIsRegister] = useState(false);
   const location = useLocation()
+  // checkeamos si actualmente estamos en la vista de registrado
   useEffect(() => {
     setIsRegister(location.pathname === '/register');
   }, [location]);
 
+  // si NO estamos en la vista de registrado,
+  // el componente se renderiza normalmente
   return ( 
     <>
     {isRegister ? null : (

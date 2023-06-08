@@ -13,9 +13,13 @@ import FormInput from './FormInput';
 import './RegForm.scss'
 import { act } from 'react-dom/test-utils';
 
+// Componente de Formulario de registro
+
  
- // A custom validation function. This must return an object
- // which keys are symmetrical to our values/initialValues
+// Función de validación. Retorna
+// un objeto de errores que serán
+// renderizados en caso de que la data
+// ingresada sea inválida.
 const validate = values => {
   const errors = {};
   if (!values.firstName) {
@@ -52,9 +56,6 @@ const validate = values => {
 };
 
 const RegForm = () => {
-  // Pass the useFormik() hook initial form values, a validate function that will be called when
-  // form values change or fields are blurred, and a submit function that will
-  // be called when the form is submitted
 
   const navigate = useNavigate()
   const dispatch = useDispatch();
@@ -69,13 +70,24 @@ const RegForm = () => {
     },
     validate,
     onSubmit: values => {
+      // act es un utility de react
+      // que nos permite testear
+      // cambios en nuestro state
       act(() => {
+        // Al momento del submit, si no hay
+        // errores, se envía toda la data
+        // ingresada al store y se vuelve
+        // accesible de manera global
         dispatch(setName(values.firstName));
         dispatch(setSurname(values.lastName));
         dispatch(setUsername(values.username));
         dispatch(setEmail(values.email));
         dispatch(setPw(values.pw));
         navigate('/')
+
+        // almacenamos el usuario en nuestra DB
+        // Si esto esta corriendo de manera local,
+        // REACT_APP_API_URL = http://localhost:3001
         fetch(`${process.env.REACT_APP_API_URL}/users`, {
           method: 'POST',
           headers: {
@@ -87,6 +99,8 @@ const RegForm = () => {
     },
   });
 
+  // generador de configs para
+  // nuestro FormInput.jsx
   const inputConfigs = (name, label, type = 'text') => {
     const configs = {
       onChange: formik.handleChange,

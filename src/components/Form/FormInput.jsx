@@ -1,5 +1,12 @@
 import './FormInput.scss'
 
+// Componente reutilizable de
+// text input para formulario
+// acepta un objeto config como única prop
+// el cual proporciona toda la data necesaria.
+// Me ví obligado a hacer este componente
+// ya que sino el archivo de RegForm.jsx
+// se volvería muy 'verbose'
 const FormInput = ({config}) => {
   return ( 
     <div className='form-input'>

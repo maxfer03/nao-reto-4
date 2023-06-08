@@ -2,8 +2,8 @@ import Card from '../Card/Card';
 import SmallChart from '../Charts/SmallChart';
 import './CardMd.scss'
 
+// Variante media del componente Card
 const CardMd = ({data, title, subtitle, isClient}) => {
-  console.log(data)
   return (
     <Card title = {title} size = 'md'>
     <div className='data'>

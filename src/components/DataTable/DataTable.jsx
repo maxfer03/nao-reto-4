@@ -1,7 +1,12 @@
 import Card from '../Card/Card';
 import SmallChart from '../Charts/SmallChart';
 import './DataTable.scss'
-
+// Componente reutilizable
+// de tabla de datos
+// Actualmente tiene 3 variantes:
+// - Invoices
+// - Products
+// - GlobalData
 const DataTable = ({data, title, length, isProducts, isGlobal}) => {
 
   if (isGlobal) {

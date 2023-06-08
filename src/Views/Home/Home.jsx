@@ -5,7 +5,11 @@ import './Home.scss'
 import CardLg from '../../components/CardLg/CardLg';
 import Invoices from '../../components/DataTable/DataTable';
 import PieChart from '../../components/PieChart/PieChart'
+  // Vista principal:
+  // Renderiza una serie de gráficos
+  // e información relevante al admin
 const Home = () => {
+
   const data = useSelector((state) => state.charts.data)
   return ( <div className='home container'>
     <div className='main-cards'>

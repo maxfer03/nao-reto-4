@@ -1,29 +1,30 @@
 import { useState, useEffect } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import './NavBar.scss'
 import logo from '../../assets/svg/logo.svg'
 import home from '../../assets/svg/home.svg'
 import analytics from '../../assets/svg/analytics.svg'
 import product from '../../assets/svg/product.svg'
 import payment from '../../assets/svg/payment.svg'
-import orders from '../../assets/svg/orders.svg'
 import clients from '../../assets/svg/clients.svg'
-import marketing from '../../assets/svg/marketing.svg'
-import config from '../../assets/svg/config.svg'
-import user from '../../assets/svg/user.svg'
 import logout from '../../assets/svg/logout.svg'
 
-
+// Componente de barra de navegación
+// Este componente funciona como un drawer
+// en mobile, y un fixed side bar en desktop
 
 const NavBar = () => {
 
   const [isRegister, setIsRegister] = useState(false);
   const location = useLocation()
+  
+  // checkeamos si actualmente estamos en la vista de registrado
   useEffect(() => {
     setIsRegister(location.pathname === '/register');
   }, [location]);
 
-
+  // si NO estamos en la vista de registrado,
+  // el componente se renderiza normalmente
   return ( 
     <>
     {isRegister ? null : (

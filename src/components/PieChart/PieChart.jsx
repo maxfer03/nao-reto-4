@@ -1,5 +1,8 @@
 import { ResponsivePie } from '@nivo/pie'
 
+// Componente de gráfico de 'torta'
+// de Nivo. se utiliza en el gráfico
+// de categorias de la página principal
 const PieChart = ({data}) => {
   return ( <div style={{height:"200px", width: "100%"}}>
     <ResponsivePie

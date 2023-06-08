@@ -1,6 +1,9 @@
 import { ResponsiveLine } from '@nivo/line';
 
-
+// Componente reutilizable de
+// gráfico de linea de Nivo.
+// Acepta una prop de data
+// para renderizar
 const SmallChart = ({data}) => {
   return ( 
         <div style={{height: '100%', width: '100%'}}>

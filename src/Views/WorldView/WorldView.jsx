@@ -5,11 +5,18 @@ import Card from '../../components/Card/Card'
 import features from '../../assets/world/features.json'
 import './WorldView.scss'
 import DataTable from '../../components/DataTable/DataTable';
+  // Vista de facturas:
+  // Renderiza un mapa 
+  // y una tabla de datos
+  // de ventas
 
+  //Esta función se preocupa de renderizar el mapa
 const WorldGraph = ({data}) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // impedimos el render del mapa en mobile
+    // ya que se vuelve muy pequeño
     const checkScreenSize = () => {
       setIsMobile(window.innerWidth < 1024);
     };
@@ -31,7 +38,6 @@ const WorldGraph = ({data}) => {
       </div> 
     )
   }
-  console.log('features',features)
   if (data) return (
     <div className='world-container'>
       <ResponsiveChoropleth
@@ -55,6 +61,7 @@ const WorldGraph = ({data}) => {
   )
 }
 
+// Esta función es el de la vista de la página
 const WorldView = () => {
   const {world} = useSelector((state) => state.charts.data)
   if (world) {

@@ -1,10 +1,9 @@
-import { render, screen, fireEvent, act } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 
 import App from './App';
 import { Provider } from 'react-redux'
-import { BrowserRouter, useNavigate} from "react-router-dom" 
+import { BrowserRouter} from "react-router-dom" 
 
-import RegForm from './components/Form/RegForm';
 
 import store from './redux/store';
 test('renders Register title', () => {

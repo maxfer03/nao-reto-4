@@ -1,5 +1,9 @@
 import './Card.scss'
 
+
+// Componente reutilizable de tarjeta.
+// Acepta distintas props, las cuales
+// aplican estilos específicos.
 const Card = ({title, size, styles, children}) => {
   return ( <div className={'data-card ' + (styles ? styles : '') + ' ' + size}>
     {

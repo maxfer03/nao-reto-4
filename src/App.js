@@ -17,9 +17,13 @@ function App() {
   const navigate = useNavigate()
   const location = useLocation()
   const [noData, setNoData] = useState(false)
+
+  // recolectamos data de nuestro backend
   useEffect(() => {
 
     const getCharts = () => {
+      // Si esto esta corriendo de manera local,
+      // REACT_APP_API_URL = http://localhost:3001
       fetch(`${process.env.REACT_APP_API_URL}/data`)
         .then(response => response.json())
         .then(data => {
@@ -31,12 +35,14 @@ function App() {
         });
 
     }
+    // redirect a login / register si el usuario no esta identificado
     if(location.pathname !== '/register' && (!userData.username || !userData.email || !userData.pw)) {
     navigate('/register')
     }
 
     getCharts()
   })
+  // fallback por si la DB esta apagada
   if (noData) {
     return (
       <>
@@ -46,9 +52,13 @@ function App() {
       </>
     )
   }
+  // Routing con react-router-dom
+  // los componentes de NavBar y TopBar
+  // se renderizan en todas las vistas
+  // (menos la de registrado)
   return (
   <>
-  <NavBar/>
+    <NavBar/>
     <TopBar/>
     <Routes>
         <Route path='/' element={<Home/>} />
